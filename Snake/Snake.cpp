@@ -9,36 +9,11 @@ int main()
     {
         window::Window window_0(512, 512, "Snake", "bless-48x48.png");
 
-        float coords[] = { 0.0f, 0.0f,  0.0f, 0.4f,  0.4f, 0.4f,  0.4f, 0.0f };
-
         while (!glfwWindowShouldClose(window_0.getWindow()))
         {
             window_0.window_resize();
             glClearColor(0.0f, 0.8f, 0.0f, 0.0f);
             glClear(GL_COLOR_BUFFER_BIT);
-
-            glPushMatrix();
-
-            if (glfwGetKey(window_0.getWindow(), GLFW_KEY_W) && coords[3] < 1) {
-                for (size_t i = 1; i < sizeof(coords) / sizeof(coords[0]); i += 2) {
-                    coords[i] += 0.015f;
-                }
-            }
-            if (glfwGetKey(window_0.getWindow(), GLFW_KEY_S) && coords[1] > -1) {
-                for (size_t i = 1; i < sizeof(coords) / sizeof(coords[0]); i += 2) {
-                    coords[i] -= 0.015f;
-                }
-            }
-            if (glfwGetKey(window_0.getWindow(), GLFW_KEY_A) && coords[0] > -1) {
-                for (size_t i = 0; i < sizeof(coords) / sizeof(coords[0]); i += 2) {
-                    coords[i] -= 0.015f;
-                }
-            }
-            if (glfwGetKey(window_0.getWindow(), GLFW_KEY_D) && coords[6] < 1) {
-                for (size_t i = 0; i < sizeof(coords) / sizeof(coords[0]); i += 2) {
-                    coords[i] += 0.015f;
-                }
-            }
 
             glBegin(GL_QUADS);
 
