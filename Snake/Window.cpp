@@ -82,13 +82,18 @@ void window::Window::setIcon(const char* path) {
 
 
 void Window::setFullscreen() {
+
     if (!m_Fullscreen) {
+        fullscreenWidth = m_Width;
+        fullscreenHeight = m_Height;
         const GLFWvidmode* vidMode = glfwGetVideoMode(m_Monitor);
         glfwGetWindowPos(m_Window, &m_Pos.x, &m_Pos.y);
         glfwSetWindowMonitor(m_Window, m_Monitor, 0, 0, vidMode->width, vidMode->height, vidMode->refreshRate);
         m_Fullscreen = !m_Fullscreen;   
     }
     else { 
+        m_Width = fullscreenWidth;
+        m_Height = fullscreenHeight;
         glfwSetWindowMonitor(m_Window, nullptr, m_Pos.x, m_Pos.y, m_Width, m_Height, 0);
         m_Fullscreen = !m_Fullscreen;
     }

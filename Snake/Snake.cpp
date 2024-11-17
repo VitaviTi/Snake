@@ -2,12 +2,14 @@
 #include <windows.h>
 
 #include "Window.h"
+#include "Game.h"
 
 int main()
 {
     try
     {
         window::Window window_0(512, 512, "Snake", "bless-48x48.png");
+        snake::Game gamesnake(&window_0);
 
         while (!glfwWindowShouldClose(window_0.getWindow()))
         {
@@ -15,45 +17,19 @@ int main()
             glClearColor(0.0f, 0.8f, 0.0f, 0.0f);
             glClear(GL_COLOR_BUFFER_BIT);
 
-            glBegin(GL_QUADS);
-
-            glColor3f(1, 0, 1);
-
-            glVertex2fv(coords + 0);
-            glVertex2fv(coords + 2);
-            glVertex2fv(coords + 4);
-            glVertex2fv(coords + 6);
-
-            glEnd();
-
-
-            struct {
-                double x;
-                double y;
-            }Cursor_pos;
-            glfwGetCursorPos(window_0.getWindow(), &Cursor_pos.x, &Cursor_pos.y);
-
-            int vertex1x;
-            int vertex1y;
-            int vertex2x;
-            int vertex2y;
-            window_0.transform_output_area_coords(coords[0], coords[1], vertex1x, vertex1y);
-            window_0.transform_output_area_coords(coords[4], coords[5], vertex2x, vertex2y);
-
-            if (glfwGetMouseButton(window_0.getWindow(), GLFW_MOUSE_BUTTON_LEFT) &&
-                (Cursor_pos.x > vertex1x && Cursor_pos.x < vertex2x)  &&
-                (Cursor_pos.y < vertex1y && Cursor_pos.y > vertex2y) ) {                
-                std::cout << "you pressed the button\n";
+            if (!gamesnake.game) {
+                gamesnake.home_screen();
             }
-
-
-            glPopMatrix();
-
+            else if (gamesnake.game) {
+                gamesnake.game_screen();
+            }
+                        
             glfwSwapBuffers(window_0.getWindow());
             glfwPollEvents();
             Sleep(10);
         }
     }
+
     catch (std::runtime_error& e)
     {
         std::cerr << "Exception glfw: " << e.what() << std::endl;

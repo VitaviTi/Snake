@@ -1,4 +1,10 @@
-﻿  Snake.cpp
-  Snake.vcxproj -> Y:\CPP\Graphics\Mini-Project\Snake\Debug\Snake.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  Game.cpp
+  Snake.cpp
+  Window.cpp
+Y:\CPP\Graphics\Mini-Project\Snake\Snake\Window.cpp(27,46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+Y:\CPP\Graphics\Mini-Project\Snake\Snake\Window.cpp(28,65): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+Snake.obj : error LNK2019: unresolved external symbol __imp__FT_Init_FreeType referenced in function _main
+Y:\CPP\Graphics\Mini-Project\Snake\freetype_x64-windows\lib\freetype.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+Y:\CPP\Graphics\Mini-Project\Snake\Debug\Snake.exe : fatal error LNK1120: 1 unresolved externals

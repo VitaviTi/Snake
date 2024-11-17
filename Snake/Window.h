@@ -27,6 +27,8 @@ class Window {
     int m_Height;
     int m_resize_Width;
     int m_resize_Height;
+    int fullscreenWidth;
+    int fullscreenHeight;
 
 public:
     Window(int width, int height, const char* title, const char* iconPath);
