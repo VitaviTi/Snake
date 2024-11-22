@@ -2,6 +2,11 @@
 
 
 
+bool snake::Game::death()
+{
+    return coords_snake[3] < 1.0 || coords_snake[1] > -1.0 || coords_snake[0] > -1.0 || coords_snake[6] < 1.0;
+}
+
 void snake::Game::playbutton()
 {
     float coords[] = { -0.4f, -0.2f,  -0.4f, 0.2f,  0.4f, 0.2f,  0.4f, -0.2f };
@@ -46,28 +51,28 @@ void snake::Game::testsnake()
     
 
 
-    for (size_t i = 0; i < sizeof(coords_snake) / sizeof(coords_snake[0]); i ++) {
+    for (size_t i = 0; i < 8; i ++) {
         std::cout << coords_snake[i] << "  ";
     }
     std::cout << std::endl;
 
 
-    if (glfwGetKey(window_game->getWindow(), GLFW_KEY_W) && coords_snake[3] < 1) {
+    if (glfwGetKey(window_game->getWindow(), GLFW_KEY_W) && coords_snake[3] < 1.0) {
         for (size_t i = 1; i < 8; i += 2) {
             coords_snake[i] += 0.02f;
         }
     }
-    if (glfwGetKey(window_game->getWindow(), GLFW_KEY_S) && coords_snake[1] > -1) {
+    if (glfwGetKey(window_game->getWindow(), GLFW_KEY_S) && coords_snake[1] > -1.0) {
         for (size_t i = 1; i < 8; i += 2) {
             coords_snake[i] -= 0.02f;
         }
     }
-    if (glfwGetKey(window_game->getWindow(), GLFW_KEY_A) && coords_snake[0] > -1) {
+    if (glfwGetKey(window_game->getWindow(), GLFW_KEY_A) && coords_snake[0] > -1.0) {
         for (size_t i = 0; i < 8; i += 2) {
             coords_snake[i] -= 0.02f;
         }
     }
-    if (glfwGetKey(window_game->getWindow(), GLFW_KEY_D) && coords_snake[6] < 1) {
+    if (glfwGetKey(window_game->getWindow(), GLFW_KEY_D) && coords_snake[6] < 1.0) {
         for (size_t i = 0; i < 8; i += 2) {
             coords_snake[i] += 0.02f;
         }
@@ -99,5 +104,8 @@ void snake::Game::home_screen()
 
 void snake::Game::game_screen()
 {
+    if (!death()) { 
+        game = false;
+    }
     testsnake();
 }

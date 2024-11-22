@@ -1,9 +1,0 @@
-Debug/
-freetype_x64-windows/
-
-# Visual Studio
-.vs/
-*.sln
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user

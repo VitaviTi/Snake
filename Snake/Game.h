@@ -11,6 +11,7 @@ class Game
 	float coords_snake[8] = { 0.0f, 0.0f,  0.0f, 0.1f,  0.1f, 0.1f,  0.1f, 0.0f };
 	window::Window* window_game;
 private:
+	bool death();
 	void playbutton();
 	bool press_button(float mincoordx, float maxcoordx, float mincoordy, float maxcoordy);
 	void testsnake();

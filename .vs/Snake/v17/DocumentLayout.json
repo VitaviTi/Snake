@@ -3,95 +3,134 @@
   "WorkspaceRootPath": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|solutionrelative:Snake\\Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|solutionrelative:Snake\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|solutionrelative:Snake\\Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|solutionrelative:Snake\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|solutionrelative:Snake\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{28835110-281E-4CB7-9DC3-523CEE32232D}|Snake\\Snake.vcxproj|solutionrelative:Snake\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Y:\\CPP\\Graphics\\Mini-Project\\Snake\\freetype_x64-windows\\include\\freetype\\config\\ftheader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:freetype_x64-windows\\include\\freetype\\config\\ftheader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Y:\\CPP\\Graphics\\Mini-Project\\Snake\\freetype_x64-windows\\include\\ft2build.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:freetype_x64-windows\\include\\ft2build.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 120,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Snake.cpp",
               "DocumentMoniker": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Snake.cpp",
               "RelativeDocumentMoniker": "Snake\\Snake.cpp",
               "ToolTip": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Snake.cpp",
               "RelativeToolTip": "Snake\\Snake.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-30T10:54:45.647Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ftheader.h",
+              "DocumentMoniker": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\freetype_x64-windows\\include\\freetype\\config\\ftheader.h",
+              "RelativeDocumentMoniker": "freetype_x64-windows\\include\\freetype\\config\\ftheader.h",
+              "ToolTip": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\freetype_x64-windows\\include\\freetype\\config\\ftheader.h",
+              "RelativeToolTip": "freetype_x64-windows\\include\\freetype\\config\\ftheader.h",
+              "ViewState": "AgIAAAIDAAAAAAAAAAApwBoDAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-17T18:16:48.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "ft2build.h",
+              "DocumentMoniker": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\freetype_x64-windows\\include\\ft2build.h",
+              "RelativeDocumentMoniker": "freetype_x64-windows\\include\\ft2build.h",
+              "ToolTip": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\freetype_x64-windows\\include\\ft2build.h",
+              "RelativeToolTip": "freetype_x64-windows\\include\\ft2build.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-17T18:16:45.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Window.cpp",
               "DocumentMoniker": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Window.cpp",
               "RelativeDocumentMoniker": "Snake\\Window.cpp",
               "ToolTip": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Window.cpp",
               "RelativeToolTip": "Snake\\Window.cpp",
-              "ViewState": "AQIAAA4AAAAAAAAAAAASwBgAAABRAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-15T20:50:27.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game.cpp",
               "DocumentMoniker": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Game.cpp",
               "RelativeDocumentMoniker": "Snake\\Game.cpp",
               "ToolTip": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Game.cpp",
               "RelativeToolTip": "Snake\\Game.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAiwD8AAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-10T14:04:27.628Z",
-              "EditorCaption": ""
-            },
+              "WhenOpened": "2024-11-10T14:04:27.628Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "8ffeff7f-2713-4e58-a905-e96e8a6fb693",
+        "Display": 0,
+        "X": 165,
+        "Y": -8,
+        "Width": 1763,
+        "Height": 739,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Game.h",
               "DocumentMoniker": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Game.h",
               "RelativeDocumentMoniker": "Snake\\Game.h",
               "ToolTip": "Y:\\CPP\\Graphics\\Mini-Project\\Snake\\Snake\\Game.h",
               "RelativeToolTip": "Snake\\Game.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T13:53:41.083Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 450,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"
+              "WhenOpened": "2024-11-10T13:53:41.083Z",
+              "EditorCaption": ""
             }
           ]
         }
